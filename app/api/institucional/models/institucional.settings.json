@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "institucionals",
+  "info": {
+    "name": "Institucional",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    },
+    "materias": {
+      "collection": "collection-type"
+    }
+  }
+}

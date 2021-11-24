@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_blog_pages",
+  "info": {
+    "name": "Page",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "Publicacao": {
+      "type": "datetime"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "featured_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

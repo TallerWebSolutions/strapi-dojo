@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "collection_types",
+  "info": {
+    "name": "Matérias",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Materia": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blog.page"
+    }
+  }
+}
